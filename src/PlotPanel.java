@@ -26,6 +26,7 @@ class PlotPanel extends JPanel implements Observer {
      * @param observable The observable object which can be referenced to get the 
      * changed dataset.
      */
+    @Override
     public void update(Observable observable) {
         plot.setNumber(((RandomNumbers)observable).getNumber());
         super.repaint();
