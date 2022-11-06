@@ -4,7 +4,7 @@ import java.awt.*;
 import java.util.*;
 import java.util.List;
 
-abstract class CommonPlot {
+abstract class PlotCommon {
     protected List<Integer> rndNum  = new ArrayList<>(25);
 
     public void setNumber(int num){

@@ -3,9 +3,9 @@ import javax.swing.JPanel;
 import java.awt.*;
 
 class PlotPanel extends JPanel implements Observer {
-    CommonPlot plot;
+    PlotCommon plot;
 
-    public PlotPanel(CommonPlot plot){
+    public PlotPanel(PlotCommon plot){
         this.plot = plot;
     }
 

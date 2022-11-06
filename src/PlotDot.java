@@ -2,7 +2,7 @@ package src;
 
 import java.awt.*;
 
-public class Dot extends CommonPlot{
+public class PlotDot extends PlotCommon{
     public void operation(Graphics graphic){
         for (int i = 1; i < rndNum.size(); i++){
 			graphic.drawLine(i*20, rndNum.get(i), (i-1)*20, rndNum.get(i-1));

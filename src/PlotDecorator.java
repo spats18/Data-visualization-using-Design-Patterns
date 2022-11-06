@@ -1,11 +1,11 @@
 package src;
 import java.awt.*;
 
-abstract class DecoratorPlot extends CommonPlot {
-    protected CommonPlot component;
+abstract class PlotDecorator extends PlotCommon {
+    protected PlotCommon component;
     // private JPanel 
 
-    public void setComponent(CommonPlot component){
+    public void setComponent(PlotCommon component){
         this.component = component;
     }
 

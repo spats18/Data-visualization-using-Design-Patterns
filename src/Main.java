@@ -24,9 +24,9 @@ class Main extends JFrame implements ActionListener{
         plot.setBorder(BorderFactory.createLineBorder(Color.black));
 		JPanel buttonPanel = new JPanel(new GridLayout(1,1));
 
-		Dot dot = new Dot();
-        Square sqr = new Square();
-		Bar bar = new Bar();
+		PlotDot dot = new PlotDot();
+        PlotSquare sqr = new PlotSquare();
+		PlotBar bar = new PlotBar();
 
 		sqr.setComponent(dot);
 		bar.setComponent(sqr);

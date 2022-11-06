@@ -2,7 +2,7 @@ package src;
 
 import java.awt.*;
 
-public class Square extends DecoratorPlot{
+public class PlotSquare extends PlotDecorator{
     @Override
     public void operation(Graphics graphic){
         for (int i = 0; i < rndNum.size(); i++){
