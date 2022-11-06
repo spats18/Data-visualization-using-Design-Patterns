@@ -8,13 +8,13 @@ import java.util.*;
  * It will notify all its observers whenever there's a change in dataset. 
  */
 abstract class Observable {
-    List<PlotPanel> observers = new ArrayList<>(3);
+    List<Observer> observers = new ArrayList<>(3);
 
     /**
      * This method will add the Observer to the list.
      * @param observer the Observer object to be added.
      */
-    public void addObserver(PlotPanel observer){
+    public void addObserver(Observer observer){
         this.observers.add(observer);
     }
 
@@ -22,7 +22,7 @@ abstract class Observable {
      * This method will remove the Observer from the list.
      * @param observer the Observer object to be removed.
      */
-    public void removeObserver(PlotPanel observer){
+    public void removeObserver(Observer observer){
         this.observers.remove(observer);
     }
 
