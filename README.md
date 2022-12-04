@@ -1,5 +1,5 @@
 # Data-visualization-using-Design-Patterns
-This is GUI-based application adds a new number to the plot and computes the mean in real time with each click. The plot then depicts a graph that includes the mean of each integer and all other numbers. Three graphs are presented: the first has simply lines; the second has squares over the points that add up to the mean; and the third includes histograms for the same points.
+This is GUI-based application that adds a new number to the plot and computes the mean in real time with each click. The plot then depicts a graph that includes the mean of each integer and all other numbers. Three graphs are presented: the first has simply lines; the second has squares over the points that add up to the mean; and the third includes histograms for the same points.
 We incorporated the Observer, Decorator, and Singleton Design pattern to monitor button clicks, decorate plots and maintain a single mean value for an instance of the application.
 ## Design Patterns:
 We have implemented clean coding and the Don’t Repeat Yourself (DRY) and Keep It Simple (KIS) principles in our code. Moreover, we have taken care to include all the SOLID principles to ensure our code’s readability and efficiency. 
