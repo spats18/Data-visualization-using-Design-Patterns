@@ -19,4 +19,6 @@ The PlotDecorator is acting as a decorator for PlotDots to plot squares and bars
 ### Class Diagram
 ![](UML.jpg)
 ### Output:
+![](image/Screen%20Shot%202022-12-03%20at%207.30.39%20PM.png)
+![](image/Screen%20Shot%202022-12-03%20at%207.30.52%20PM.png)
                         
