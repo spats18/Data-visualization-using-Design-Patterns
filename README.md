@@ -15,6 +15,8 @@ The PlotDecorator is acting as a decorator for PlotDots to plot squares and bars
 
 
 ### Technologies used: Swing, Java
+
+### Class Diagram
+![](UML.jpg)
 ### Output:
-![image] https://github.com/spats18/Data-visualization-using-Design-Patterns#:~:text=26%20days%20ago-,UML.jpg,-Add%20files%20via
                         
